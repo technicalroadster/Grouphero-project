@@ -1,0 +1,150 @@
+body {
+	font-family: "PT Sans";
+}
+/*------------NAVIGATION BAR-----------*/
+.nav-link{
+    padding: 15px;
+}
+.navbar-light {
+    color: #ffffff;
+}
+.navbar {
+    background: #0b83d8;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
+img.navbar-brand {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.align-right {
+    float: right;
+}
+/*------------------H1--------------*/
+h1 {
+    color: #58595b;
+    font-weight: 600;
+    font-size: 2em;
+}
+.h1space h1 {
+    padding: 90px 0 15px 0;
+}
+
+.RegFormFields {
+	border-radius: 10px;
+}
+
+.RadioButtonRegister .form-group{
+    display: inline
+   
+}
+
+.btn-primary {
+    border-radius: 10px;
+    width: 50%;
+    background: #0b83d8;
+    border: 0;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.AccountFields label  {
+	font-weight: normal;
+}
+.AccountFields {
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(88,89,91,0.17);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(88,89,91,0.17);
+	box-shadow: 0px 0px 5px 3px rgba(88,89,91,0.17);
+	border-radius: 10px;
+}
+
+.upload-drop-zone {
+  border-radius: 10px;
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+.upload-drop-zone p {
+    margin: 0;
+    color: #58595b;
+    line-height: normal;
+}
+.space-create {
+    margin-top: 20px;
+}
+th {
+    background: #00b3ef;
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(images/HB.svg)!important;
+    color: rgba(255,255,255,1);
+}
+/*-------------SEARCH BAR---------------*/
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
+/*----------REGISTRATION INPUT FIELDS----------*/
+
+.form-group label {
+    color: #58595b;
+    font-size: 14px;
+}
+input[type=text] {
+	border-radius: 10px;
+	padding: 5px;
+    color: #58595b;
+    font-size: 14px;
+    
+}
+
+input[type=email] {
+	border-radius: 10px;
+	padding: 5;
+    color: #58595b;
+    font-size: 14px;
+}
+
+input[type=password] {
+	border-radius: 10px;
+    padding: 5;
+    color: #58595b;
+    font-size: 14px;
+	
+}
+
+input[type=tel] {
+    border-radius: 10px;
+    padding: 5;
+    color: #58595b;
+    font-size: 14px;
+}
+
+.DescriptionField input[type=text] {
+    height: 5em
+}
+
+
